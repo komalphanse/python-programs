@@ -1,0 +1,5 @@
+set=frozenset([1,2,3,4])
+print(type(set))
+print(set)
+set.add(5)
+print(set)

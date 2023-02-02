@@ -1,0 +1,7 @@
+print("show how to negative indexing in python")
+t=("python","tuple","ordered","collection","object")
+print("element at -1 index=",t[-1])
+print("element between -4 and -1=",t[-4:-1])
+print("element between indices 1 and 3=",t[1:3])
+print("element between indices 0 and -4=",t[:-4])
+print("entire tuple=",t[:])
