@@ -1,0 +1,10 @@
+from array import*
+nums=array("i",[1,2,4])
+nums.insert(2,3)#(i,x)
+print(nums)
+print(nums.pop(2))#(i)
+print(nums)
+nums.reverse()
+print(nums)
+nums.remove(4)#(x)
+print(nums)
